@@ -1,0 +1,63 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado */
+.header {
+  background-color: #34495e;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+/* Estilos para el contenedor principal */
+.unit-section {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para las cajas de contenido */
+.box {
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-left: 0;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Estilos para los enlaces */
+a {
+  color: #dbdbdb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para las listas */
+.unit-section ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.unit-section ul li {
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.unit-section ul ul {
+  margin-left: 20px;
+}
