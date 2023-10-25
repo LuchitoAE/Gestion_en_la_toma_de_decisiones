@@ -1,0 +1,86 @@
+/* Estilos para el documento HTML */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.main-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.unit {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.unit h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+.week-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.week {
+  margin: 10px 0;
+}
+
+.week a {
+  text-decoration: none;
+  color: #0074d9;
+  font-weight: bold;
+}
+
+.week a:hover {
+  color: #0056b3;
+}
+
+.definition-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.text-box {
+  flex: 1;
+}
+
+.text-box h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.text-box p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.image-box {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 400px;
+}
